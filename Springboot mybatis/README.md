@@ -19,7 +19,7 @@ Springboot+mybatis有两种主要的部署方式，分别是XML部署和注解�
 ### mapper.xml配置
 mapper.xml主要是用于描述具体的sql实现方式的。  
 这里引用mybatis的描述  
-[mapper的官网描述]("http://www.mybatis.org/mybatis-3/zh/sqlmap-xml.html")   
+[mapper的官网描述](http://www.mybatis.org/mybatis-3/zh/sqlmap-xml.html)   
 这里需要说一点的是，```<resultMap>```中的元素的```jdbcType```最好可以声明，我之前碰到过几个无法找到类型的问题就是因为再此处没有声明```jdbcType```。
 
 
